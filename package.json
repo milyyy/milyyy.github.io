@@ -1,0 +1,21 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "deploy": "vuepress build docs",
+    "d": "start deploy.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@vuepress/plugin-back-to-top": "^1.2.0",
+    "gh-pages": "^2.1.1"
+  },
+  "dependencies": {
+    "vuepress": "^1.5.2"
+  }
+}
