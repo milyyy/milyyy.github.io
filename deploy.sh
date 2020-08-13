@@ -4,7 +4,7 @@
 set -e
 
 # 生成静态文件
-npm cache clean -f
+# npm cache clean -f
 
 npm run docs:build
 
