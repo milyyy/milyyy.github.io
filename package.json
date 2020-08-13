@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vuepress dev docs",
     "clean": "npm cache clean -f",
-    "deploy": "vuepress build docs",
+    "docs:build": "vuepress build docs",
     "d": "start deploy.sh"
   },
   "keywords": [],
