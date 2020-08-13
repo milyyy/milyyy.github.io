@@ -19,10 +19,10 @@ git commit -m $1
 # 如果发布到 https://<USERNAME>.github.io
 git push -f git@github.com:milyyy/milyyy.github.io.git master
 
-cd -
+# cd -
 
-git add .
+# git add .
 
-git commit -m $1
+# git commit -m $1
 
-git push origin master:master # 推到github上
+# git push origin master:master # 推到github上
